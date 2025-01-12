@@ -152,11 +152,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 925469919}
+  m_Father: {fileID: 1657858110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 4.6959534, y: 102.036026}
+  m_AnchoredPosition: {x: 434.69598, y: -85.964005}
   m_SizeDelta: {x: 236.72, y: 47.278595}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &179384848
@@ -378,11 +378,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 925469919}
+  m_Father: {fileID: 1657858110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -12.943054, y: 147.67531}
+  m_AnchoredPosition: {x: 417.05698, y: -40.32469}
   m_SizeDelta: {x: 268.0379, y: 47.278595}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &543629224
@@ -482,60 +482,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 543629222}
   m_CullTransparentMesh: 1
---- !u!1 &925469918
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 925469919}
-  - component: {fileID: 925469920}
-  m_Layer: 5
-  m_Name: PlantCountUI
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &925469919
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 925469918}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1167303337}
-  - {fileID: 543629223}
-  - {fileID: 1554837976}
-  - {fileID: 179384847}
-  m_Father: {fileID: 1657858110}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &925469920
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 925469918}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eebc7c403a9d34bf6ac89b8e35043f21, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _plantedText: {fileID: 543629224}
-  _remainingText: {fileID: 179384848}
 --- !u!1 &935932057
 GameObject:
   m_ObjectHideFlags: 0
@@ -634,11 +580,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78692814429bd4f79a92be7f923fb9e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _speed: 1
+  _speed: 1.5
   _playerTransform: {fileID: 935932060}
   _plantPrefab: {fileID: 8034113668815379212, guid: e71c43feec5b2374ba699c5a9c88ca30, type: 3}
   _numSeeds: 5
-  _plantCountUI: {fileID: 925469920}
+  _plantCountUI: {fileID: 1657858111}
 --- !u!95 &935932062
 Animator:
   serializedVersion: 5
@@ -690,11 +636,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 925469919}
+  m_Father: {fileID: 1657858110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -280.98108, y: 147.67531}
+  m_AnchoredPosition: {x: 149.01898, y: -40.32469}
   m_SizeDelta: {x: 268.0379, y: 47.278595}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1167303338
@@ -892,11 +838,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 925469919}
+  m_Father: {fileID: 1657858110}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: -263.34238, y: 102.036026}
+  m_AnchoredPosition: {x: 166.65768, y: -85.964005}
   m_SizeDelta: {x: 299.353, y: 47.27899}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1554837977
@@ -1008,8 +954,9 @@ GameObject:
   - component: {fileID: 1657858109}
   - component: {fileID: 1657858108}
   - component: {fileID: 1657858107}
+  - component: {fileID: 1657858111}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: PlantCountUI
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1065,7 +1012,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 519420031}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -1090,7 +1037,10 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 925469919}
+  - {fileID: 1167303337}
+  - {fileID: 543629223}
+  - {fileID: 1554837976}
+  - {fileID: 179384847}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1098,6 +1048,20 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1657858111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1657858106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eebc7c403a9d34bf6ac89b8e35043f21, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _plantedText: {fileID: 543629224}
+  _remainingText: {fileID: 179384848}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
