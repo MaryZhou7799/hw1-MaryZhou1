@@ -3,10 +3,12 @@
 ## W1L2 In-Class Activity
 
 UI
-    Seeds remaining (start with 5): 
+
+Seeds remaining (start with 5): 
         - Reduces by one when player plants
         - Attribute: text
-    Seeds planted (start with 0)
+
+Seeds planted (start with 0)
         - Increases by one when player plants
         - Attribute: text
 
